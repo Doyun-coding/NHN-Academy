@@ -5,8 +5,8 @@
 Branch
 * 실습 : execise-simple-http-server-step7 기준으로 execise-simple-http-server-step8 branch를 생성 후 진행 합니다.
 
-== 구현
-=== GET http://localhost:8080/register.html
+구현
+GET http://localhost:8080/register.html
 * 회원가입 button을 클릭합니다.
 * POST http://localhost:8080/register.html로 전송 됩니다.
 
