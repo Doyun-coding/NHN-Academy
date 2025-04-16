@@ -1,0 +1,33 @@
+### 멤버조회
+GET localhost:8080/me
+
+
+### 멤버조회
+GET localhost:8080/me
+Accept: application/xml
+
+
+### 멤버조회
+GET localhost:8080/members
+
+### 멤버조회
+GET localhost:8080/members/baek
+
+### 멤버조회
+GET localhost:8080/members/man
+
+
+### 멤버생성
+POST localhost:8080/members
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "id" : "baek",
+  "password" : "baek",
+  "name" : "백종원",
+  "age" : 50,
+  "class" : "A",
+  "role" : "member"
+
+}
